@@ -1,0 +1,13 @@
+*.opensdf
+*.sdf
+*.user
+*.suo
+Debug/*
+bin/*
+obj/*
+libs/*
+gen/*
+resource/*
+intermediate/*
+!libs/win32
+local.properties

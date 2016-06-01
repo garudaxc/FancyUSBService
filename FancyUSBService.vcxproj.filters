@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{eebe9afb-f043-42b7-948b-c094c560d877}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{bfec402d-57b7-4d91-bfbc-013ec72145e8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{481f1e4d-a494-4f97-81e2-24a1a01687f0}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files">
+      <UniqueIdentifier>{52c551a0-8657-439e-b80e-8c2bb1e28520}</UniqueIdentifier>
+      <Extensions>*.java</Extensions>
+    </Filter>
+    <Filter Include="Java Source Files\com">
+      <UniqueIdentifier>{9330aff7-70d0-4cce-a06f-c90a113f6dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\FancyTech">
+      <UniqueIdentifier>{c1156b36-3544-4737-a082-9bf0fe60d16b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Java Source Files\com\FancyTech\FancyUSBService">
+      <UniqueIdentifier>{445fba64-6037-46f9-8b3d-e08c870e738c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jni\Android.mk" />
+    <None Include="jni\Application.mk" />
+    <None Include="src\com\FancyTech\FancyUSBService\FancyUSBService.java">
+      <Filter>Java Source Files\com\FancyTech\FancyUSBService</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jni\FancyUSBService.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\Thread.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\PlatfromAndroid.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\MyLog.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jni\client.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jni\Thread.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\MyLog.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="jni\Platfrom.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
